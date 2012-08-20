@@ -49,13 +49,13 @@ while keeping this library transport-agnostic.
 Feed lessons learned back into the development of interoperability
 for new devices
 
-Platform Compatibility
-======================
+Platforms
+=========
 
 Any Java 6.0 or greater environment is supported.
 
-For serial communication only platforms supported by purejavacomm
-are supported.
+Serial comms are delegated to an external package.  purejavacomm is
+the default but others (e.g. RXTX) can be integrated easily.
 
 GUI component implementations are relegated to *.swing packages
 which can be excluded from the build where swing is unavailable.

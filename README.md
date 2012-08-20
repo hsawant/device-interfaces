@@ -49,6 +49,25 @@ while keeping this library transport-agnostic.
 Feed lessons learned back into the development of interoperability
 for new devices
 
+Platform Compatibility
+======================
+
+Any Java 6.0 or greater environment is supported.
+
+For serial communication only platforms supported by purejavacomm
+are supported.
+
+GUI component implementations are relegated to *.swing packages
+which can be excluded from the build where swing is unavailable.
+
+External Libraries
+==================
+
+For serial communication purejavacomm is used.
+http://github.com/nyholku/purejavacomm
+
+purejavacomm utilizes Java Native Access
+https://github.com/twall/jna
 
 License
 =======
